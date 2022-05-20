@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2020307 & 2020311</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<style></style>
+
+<body>
+    <main>
+        <h1 id="app-title">Electricity Bill Calculator </h1>
+        <div id="form-holder">
+            <div id="main-box">
+                <form action="" id="calculate-bill-form">
+                    <div class="form-item">
+                        <label for="unit-consume"><b>Enter Consumed Units</b></label>
+                        <input type="number" step="any" min="1" name="unit-consume" id="unit-consume" class="input-item text-right" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="billig-period"><b>Enter Period</b> <small>(Days)</small></label>
+                        <input type="number" step="any" name="billig-period" id="billig-period" class="input-item text-right" required>
+                    </div>
+                    <div class="form-item">
+                        <button class="btn-block" id="calculate-btn" type="submit">Calculate</button>
+                        <button class="btn-block" id="reset-btn" type="reset">Reset</button>
+                    </div>
+                </form>
+                <table id="result">
+                    <tbody>
+                        <label id="table-title"><b> Your Billing Details: </b></label>
+                        <tr>
+                            <td class=""><b>Total Without Vat(%)</b></td>
+                            <td class="text-right" id="no-vat-total"></td>
+                        </tr>
+                        <tr>
+                            <td class=""><b>Total of Vat(%)</b></td>
+                            <td class="text-right" id="vat-total"></td>
+                        </tr>
+                        <tr>
+                            <td class=""><b>Final Total Includiing Vat(%)</b></td>
+                            <td class="text-right" id="total-pay"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

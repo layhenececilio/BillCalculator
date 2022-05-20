@@ -1,7 +1,7 @@
 window.onload = function() {
 
-    const calculForm = document.getElementById('calculate-bill-form')
-    calculForm.addEventListener('submit', function(e) {
+    const billForm = document.getElementById('calculate-bill-form')
+    billForm.addEventListener('submit', function(e) {
         e.preventDefault()
         start_loader();
         const userUnits = document.getElementById('unit-consume').value;
@@ -24,7 +24,7 @@ window.onload = function() {
             document.getElementById('reset-btn').style.display = 'block';
 
     })
-    calculForm.addEventListener('reset', function(e) {
+    billForm.addEventListener('reset', function(e) {
       
             document.getElementById('no-vat-total').textContent = "";
             document.getElementById('total-pay').textContent = "";

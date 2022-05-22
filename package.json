@@ -6,5 +6,21 @@
     "async": "^2.1.4",
     "nwbuild": "^0.0.5",
     "osenv": "^0.1.4"
-  }
+  },
+  "description": "",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/layhenececilio/BillCalculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/layhenececilio/BillCalculator/issues"
+  },
+  "homepage": "https://github.com/layhenececilio/BillCalculator#readme"
 }

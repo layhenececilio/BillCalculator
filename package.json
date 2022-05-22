@@ -1,7 +1,7 @@
 {
   "name": "billcalculator",
   "version": "1.0.0",
-  "main": "index.html",
+  "main": "script.js",
   "dependencies": {
     "async": "^2.1.4",
     "nwbuild": "^0.0.5",
@@ -10,7 +10,9 @@
   "description": "",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
